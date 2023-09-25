@@ -1,0 +1,121 @@
+$(".close,.cover").click(function () {
+  $(".searchBox,.cover").hide()
+})
+$(document).ready(function () {
+  // Use event delegation to bind the click event to dynamically added elements
+  $(document).on("click", "a.tur_btn", function () {
+    $(".tutorial").hide()
+    var $classname = $(this).attr("data-class")
+    console.log($classname)
+    $("." + $classname).show()
+    $("#lightbox-1_lightboxbg, #lightbox-1").fadeIn(300)
+    $("#lightbox-1").center()
+  })
+})
+//é—œé–‰éˆ•è§¸ç™¼
+$("a#lightbox-1_close-panel,div#lightbox-1_lightboxbg").click(function () {
+  $("#lightbox-1_lightboxbg, #lightbox-1").fadeOut(300)
+})
+  $.fn.extend({
+    center: function (options) {
+      var options = $.extend(
+        {
+          // Default values
+          inside: window, // element, center into window
+          transition: 0, // millisecond, transition time
+          minX: 0, // pixel, minimum left element value
+          minY: 0, // pixel, minimum top element value
+          withScrolling: false, // booleen, take care of the scrollbar (scrollTop)
+          vertical: true, // booleen, center vertical
+          horizontal: true, // booleen, center horizontal
+        },
+        options
+      )
+      return this.each(function () {
+        var props = {
+          position: "fixed",
+        }
+        if (options.vertical) {
+          var top = ($(options.inside).height() - $(this).outerHeight()) / 2
+          if (options.withScrolling) top += $(options.inside).scrollTop() || 0
+          top = top > options.minY ? top : options.minY
+          $.extend(props, {
+            top: top + "px",
+          })
+        }
+        if (options.horizontal) {
+          var left = ($(options.inside).width() - $(this).outerWidth()) / 2
+          if (options.withScrolling) left += $(options.inside).scrollLeft() || 0
+          left = left > options.minX ? left : options.minX
+          $.extend(props, {
+            left: left + "px",
+          })
+        }
+        if (options.transition > 0) $(this).animate(props, options.transition)
+        else $(this).css(props)
+        return $(this)
+      })
+    },
+  })
+var mySwiper = new Swiper(".swiper", {
+  autoplay: true, //可选选项，自动滑动
+  autoplay: {
+    disableOnInteraction: false,
+    delay: 5000,
+  },
+  loop: true,
+  speed: 800,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+})
+$("#checkInput").keydown(function (event) {
+  // Check if the pressed key is Enter (key code 13)
+  if (event.keyCode === 13) {
+    // Trigger the click event on elements with class "check"
+    $(".check").click()
+  }
+})
+$(".check").click(function () {
+  var inputValue = document.getElementById("checkInput").value
+
+  if (inputValue.trim() === "") {
+    alert("请在 VIP 查询栏中输入您的用户名")
+  } else {
+    
+
+    $.ajax({
+      type: "POST",
+      url: "../promo3api/show_level", // Replace with the appropriate URL
+      data: {
+        username: inputValue,
+      },
+        success: function (response) {
+             $("#checkTable tr.check").remove()
+          if (response.status === 1 && response.data.length > 0) {
+            var userData = response.data[0]
+              
+            $("#checkTable").append(`
+                <tr class="check">
+                    <td>${userData.username}</td>
+                    <td>${userData.vip_level}</td>
+                </tr>
+                `)
+          } else {
+            $("#checkTable").append(`
+                <tr class="check">
+                   <td colspan="2" style="text-align: center;">用户名不存在</td>
+                </tr>
+                `)
+          }
+          $(".searchBox").css("display", "block")
+          $(".cover").css("display", "block")
+        },
+      error: function (error) {
+        console.log("error: ",error)
+      },
+    })
+  }
+})

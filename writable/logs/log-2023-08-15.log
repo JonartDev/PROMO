@@ -1,0 +1,306 @@
+CRITICAL - 2023-08-15 12:02:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/UsersModel.php(57): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Login.php(64): App\Models\UsersModel->get_data_params()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 12:03:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/UsersModel.php(57): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Login.php(64): App\Models\UsersModel->get_data_params()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 12:06:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/UsersModel.php(57): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Login.php(64): App\Models\UsersModel->get_data_params()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 12:10:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/UsersModel.php(57): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Login.php(64): App\Models\UsersModel->get_data_params()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-15 12:25:40 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-08-15 12:26:14 --> login success: admintest01. IP: 116.50.143.83
+CRITICAL - 2023-08-15 13:15:49 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:15:55 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:17:07 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:18:14 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:18:55 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:23:44 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:23:45 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-15 13:24:05 --> Undefined array key "username"
+in APPPATH/Controllers/PublicApi/Promo3api.php on line 30.
+ 1 APPPATH/Controllers/PublicApi/Promo3api.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\Promo3api->show_level()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-15 14:07:06 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-15 14:08:05 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-15 14:08:19 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-15 14:08:27 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 931. IP: 116.50.143.83
+ALERT - 2023-08-15 14:14:13 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => fdf fgdf
+    [sys_value] => http://fgdfgd.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:14:35 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => fsdfsdf
+    [sys_value] => http://fgfdgdfhj.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:30:40 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => fdf fgdf
+    [sys_value] => http://link1.com
+    [action_type] => 1
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:30:54 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => fsdfsdf
+    [sys_value] => http://link2.com
+    [action_type] => 2
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:31:26 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link3
+    [sys_desc] => link3
+    [sys_value] => http://link3.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:31:34 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => link2
+    [sys_value] => http://link2.com
+    [action_type] => 2
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:31:46 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => This is link1
+    [sys_value] => http://link1.com
+    [action_type] => 1
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:31:54 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => This is link2
+    [sys_value] => http://link2.com
+    [action_type] => 2
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:32:02 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link3
+    [sys_desc] => This is link3
+    [sys_value] => http://link3.com
+    [action_type] => 3
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:32:38 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link4
+    [sys_desc] => This is link4
+    [sys_value] => http://link4.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:33:27 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => 波币 教程
+    [sys_value] => http://link1.com
+    [action_type] => 1
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:33:42 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => NO 教程
+    [sys_value] => http://link2.com
+    [action_type] => 2
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:34:11 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link3
+    [sys_desc] => USDT 教程
+    [sys_value] => http://link3.com
+    [action_type] => 3
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:34:31 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link4
+    [sys_desc] => 钱能 教程
+    [sys_value] => http://link4.com
+    [action_type] => 4
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:35:07 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link5
+    [sys_desc] => 购宝 教程
+    [sys_value] => http://link5.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:35:38 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link6
+    [sys_desc] => OPAY 教程
+    [sys_value] => http://link6.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:36:09 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link7
+    [sys_desc] => TOPAY 教程
+    [sys_value] => http://link7.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:37:03 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link8
+    [sys_desc] => CGPAY 教程
+    [sys_value] => http://link8.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:37:30 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link9
+    [sys_desc] => GOPAY 教程
+    [sys_value] => http://link9.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:37:59 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link10
+    [sys_desc] => OKPAY 教程
+    [sys_value] => http://link10.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:38:34 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link11
+    [sys_desc] => 币趣 教程
+    [sys_value] => http://link11.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:39:17 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link12
+    [sys_desc] => K豆 教程
+    [sys_value] => http://link12.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:39:50 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link13
+    [sys_desc] => 上网 导航
+    [sys_value] => http://link13.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-15 14:40:24 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link14
+    [sys_desc] => 在线 客服
+    [sys_value] => http://link14.com
+    [action_type] => add
+)
+ . IP: 116.50.143.83

@@ -1,0 +1,32 @@
+ALERT - 2023-09-25 00:03:36 --> login success: admintest01. IP: 116.50.143.110
+ALERT - 2023-09-25 00:13:09 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 919 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-25 00:13:16 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 103. Userinfo update: 256. Promo insert: 182. IP: 116.50.143.110
+ALERT - 2023-09-25 14:37:14 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:40:46 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:41:06 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:42:02 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:42:33 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:41 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:44 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:44 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:45 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:46 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:46 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:47 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:48 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:54 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:55:59 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:12 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:18 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:37 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:41 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:42 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:42 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:43 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:44 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:45 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:45 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:46 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:46 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:47 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-25 14:56:58 --> login success: agenttest01. IP: 116.50.143.83

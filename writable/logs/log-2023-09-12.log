@@ -1,0 +1,60 @@
+ALERT - 2023-09-12 00:13:41 --> login success: admintest01. IP: 116.50.143.110
+ALERT - 2023-09-12 00:15:42 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1437 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-12 00:15:50 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 224. Userinfo update: 447. Promo insert: 446. IP: 116.50.143.110
+ALERT - 2023-09-12 17:40:51 --> login success: admintest01. IP: 116.50.143.109
+ALERT - 2023-09-12 17:51:12 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-12 17:51:40 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-09-12 18:15:51 --> login success: admintest01. IP: 116.50.143.83
+CRITICAL - 2023-09-12 18:43:45 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167userinfo.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:44:48 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167userinfo.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:46:35 --> Undefined array key "status"
+in APPPATH/Controllers/Promo/Promo8167userinfo.php on line 64.
+ 1 APPPATH/Controllers/Promo/Promo8167userinfo.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:51:45 --> Undefined variable $count
+in APPPATH/Controllers/Promo/Promo8167userinfo.php on line 68.
+ 1 APPPATH/Controllers/Promo/Promo8167userinfo.php(68): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:58:44 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getStyle(), 0 passed in /data/www/1697622_com_new/app/Controllers/Promo/Promo8167userinfo.php on line 66 and exactly 1 expected
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1537.
+ 1 APPPATH/Controllers/Promo/Promo8167userinfo.php(66): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getStyle()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 18:59:47 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getStyle(), 0 passed in /data/www/1697622_com_new/app/Controllers/Promo/Promo8167userinfo.php on line 66 and exactly 1 expected
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1537.
+ 1 APPPATH/Controllers/Promo/Promo8167userinfo.php(66): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getStyle()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167userinfo->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:14:43 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo3userinfo.php on line 43.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3userinfo->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-12 19:15:03 --> Undefined array key "date_created"
+in APPPATH/Controllers/Promo/Promo3userinfo.php on line 64.
+ 1 APPPATH/Controllers/Promo/Promo3userinfo.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3userinfo->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

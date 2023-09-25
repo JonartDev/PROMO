@@ -1,0 +1,117 @@
+ALERT - 2023-08-16 13:17:11 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-16 13:25:25 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => 波币 教程
+    [sys_value] => http://link1.com
+    [action_type] => 1
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:25:49 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link1
+    [sys_desc] => NO 教程
+    [sys_value] => http://link1.com
+    [action_type] => 1
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:26:00 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link2
+    [sys_desc] => USDT 教程
+    [sys_value] => http://link2.com
+    [action_type] => 2
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:26:14 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link3
+    [sys_desc] => 钱能 教程
+    [sys_value] => http://link3.com
+    [action_type] => 3
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:26:30 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link4
+    [sys_desc] => 购宝 教程
+    [sys_value] => http://link4.com
+    [action_type] => 4
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:26:45 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link5
+    [sys_desc] => TOPAY 教程
+    [sys_value] => http://link5.com
+    [action_type] => 5
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:27:02 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link6
+    [sys_desc] => CGPAY 教程
+    [sys_value] => http://link6.com
+    [action_type] => 6
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:27:20 --> SysConfig/delete_data . user: admintest01 data: $_POST: Array
+(
+    [id] => 14
+    [name] => pr1_link14
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:27:23 --> SysConfig/delete_data . user: admintest01 data: $_POST: Array
+(
+    [id] => 13
+    [name] => pr1_link13
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:27:32 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link7
+    [sys_desc] => GOPAY 教程
+    [sys_value] => http://link7.com
+    [action_type] => 7
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:27:46 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link8
+    [sys_desc] => OKPAY 教程
+    [sys_value] => http://link8.com
+    [action_type] => 8
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:28:11 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link9
+    [sys_desc] => k豆 教程
+    [sys_value] => http://link9.com
+    [action_type] => 9
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:28:48 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link10
+    [sys_desc] => 988PAY 教程
+    [sys_value] => http://link10.com
+    [action_type] => 10
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:29:01 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link11
+    [sys_desc] => 上网 导航
+    [sys_value] => http://link11.com
+    [action_type] => 11
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-16 13:29:16 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link12
+    [sys_desc] => 在线 客服
+    [sys_value] => http://link12.com
+    [action_type] => 12
+)
+ . IP: 116.50.143.83

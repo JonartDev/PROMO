@@ -1,0 +1,5 @@
+ALERT - 2023-09-03 00:12:27 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1834 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-03 00:12:36 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 371. Userinfo update: 444. Promo insert: 604. IP: 116.50.143.110
+ALERT - 2023-09-03 22:54:11 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.110
+ALERT - 2023-09-03 22:54:47 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.110
+ALERT - 2023-09-03 22:55:51 --> login success: admintest01. IP: 116.50.143.110

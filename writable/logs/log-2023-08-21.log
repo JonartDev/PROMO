@@ -1,0 +1,27 @@
+ALERT - 2023-08-21 20:38:22 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-21 20:39:42 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-21 20:39:47 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 539. IP: 116.50.143.83
+ALERT - 2023-08-21 20:41:54 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-21 22:10:38 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-08-21 22:12:51 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-21 22:13:14 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link11
+    [sys_desc] => 上网 导航
+    [sys_value] => https://097xl.net/
+    [action_type] => 11
+    [photo] => undefined
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-21 22:13:23 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link12
+    [sys_desc] => 在线 客服
+    [sys_value] => https://sewiow.0cx1bvhn.com/03fd8fadb634d71jkfle-kelifd8ca1b73ad7157485d8890b44544522a9b1827ca3777c40ade66678540caed2
+    [action_type] => 12
+    [photo] => undefined
+)
+ . IP: 116.50.143.83
+ALERT - 2023-08-21 22:39:15 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-21 22:41:30 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-21 22:41:37 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 931. IP: 116.50.143.83

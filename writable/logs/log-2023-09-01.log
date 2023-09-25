@@ -1,0 +1,16 @@
+ALERT - 2023-09-01 00:11:49 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1386 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-01 00:11:57 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 211. Userinfo update: 382. Promo insert: 351. IP: 116.50.143.110
+ALERT - 2023-09-01 11:06:53 --> login success: admintest01. IP: 116.50.143.109
+CRITICAL - 2023-09-01 15:38:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/SysConfigModel.php(224): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/PublicApi/GetSysConfig.php(25): App\Models\SysConfigModel->get_data_params_like()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\PublicApi\GetSysConfig->index()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

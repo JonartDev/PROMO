@@ -1,0 +1,478 @@
+ALERT - 2023-08-24 00:08:01 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1201 entries inserted. IP: 116.50.143.110
+ALERT - 2023-08-24 00:08:09 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 163. Userinfo update: 266. Promo insert: 425. IP: 116.50.143.110
+ALERT - 2023-08-24 12:09:43 --> login success: admintest01. IP: 116.50.143.83
+CRITICAL - 2023-08-24 12:34:23 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:34:45 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:30 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:32 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:32 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:38 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:41 --> Undefined array key "start_date"
+in APPPATH/Controllers/Promo/Promo3.php on line 93.
+ 1 APPPATH/Controllers/Promo/Promo3.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:51 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:35:53 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:36:48 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:36:49 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:39:57 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:41:05 --> Undefined variable $results
+in APPPATH/Controllers/Promo/Promo3.php on line 113.
+ 1 APPPATH/Controllers/Promo/Promo3.php(113): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:41:39 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 117.
+ 1 APPPATH/Controllers/Promo/Promo3.php(117): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:42:37 --> Undefined array key 1
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:44:07 --> Undefined array key 1
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:44:08 --> Undefined array key 1
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:44:13 --> Undefined array key 1
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:44:50 --> Array to string conversion
+in APPPATH/Controllers/Promo/Promo3.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo/Promo3.php(125): fputcsv()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:47:06 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:47:28 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:47:57 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:47:58 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:48:54 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:49:14 --> Undefined array key 0
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:49:33 --> Undefined array key 1
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:49:46 --> Array to string conversion
+in APPPATH/Controllers/Promo/Promo3.php on line 118.
+ 1 APPPATH/Controllers/Promo/Promo3.php(118): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 12:53:21 --> Unclosed '{' on line 112 does not match ')'
+in APPPATH/Controllers/Promo/Promo3.php on line 114.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-24 13:20:38 --> login success: admintest01. IP: 116.50.143.83
+CRITICAL - 2023-08-24 13:35:06 --> Undefined constant "App\Controllers\VENDORPATH"
+in APPPATH/Controllers/Login.php on line 12.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:52:58 --> Undefined variable $results
+in APPPATH/Controllers/Promo/Promo3.php on line 115.
+ 1 APPPATH/Controllers/Promo/Promo3.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:54:05 --> Undefined variable $results
+in APPPATH/Controllers/Promo/Promo3.php on line 115.
+ 1 APPPATH/Controllers/Promo/Promo3.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:54:50 --> Undefined variable $results
+in APPPATH/Controllers/Promo/Promo3.php on line 115.
+ 1 APPPATH/Controllers/Promo/Promo3.php(115): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:55:18 --> Undefined array key "status"
+in APPPATH/Models/Promo3Model.php on line 208.
+ 1 APPPATH/Models/Promo3Model.php(208): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo/Promo3.php(107): App\Models\Promo3Model->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:57:17 --> Undefined array key "dtype"
+in APPPATH/Models/Promo3Model.php on line 209.
+ 1 APPPATH/Models/Promo3Model.php(209): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Promo/Promo3.php(109): App\Models\Promo3Model->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 13:58:23 --> fopen(downloads/hello world.xlsx): Failed to open stream: Permission denied
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php on line 128.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/BaseWriter.php(128): fopen()
+ 3 VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/Xlsx.php(546): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle()
+ 4 APPPATH/Controllers/Promo/Promo3.php(137): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 14:02:12 --> Attempt to read property "username" on array
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 14:05:33 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getAlignment()
+in APPPATH/Controllers/Promo/Promo3.php on line 119.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 14:06:44 --> Too few arguments to function PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::getStyle(), 0 passed in /data/www/1697622_com_new/app/Controllers/Promo/Promo3.php on line 119 and exactly 1 expected
+in VENDORPATH/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Worksheet/Worksheet.php on line 1537.
+ 1 APPPATH/Controllers/Promo/Promo3.php(119): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getStyle()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 14:17:14 --> Call to undefined function App\Controllers\Promo\force_download()
+in APPPATH/Controllers/Promo/Promo3.php on line 139.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 14:17:34 --> Undefined property: App\Controllers\Promo\Promo3::$load
+in APPPATH/Controllers/Promo/Promo3.php on line 138.
+ 1 APPPATH/Controllers/Promo/Promo3.php(138): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo3->test()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-24 14:27:25 --> login success: admintest01. IP: 116.50.143.109
+ALERT - 2023-08-24 15:28:35 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-24 16:07:40 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-24 16:23:16 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-24 16:32:07 --> login success: admintest01. IP: 104.28.194.107
+ALERT - 2023-08-24 16:32:28 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link11
+    [sys_desc] => 上网 导航 no.8167vip.org
+    [sys_value] => http://8167xl.com/
+    [action_type] => 26
+    [photo] => undefined
+)
+ . IP: 104.28.226.107
+ALERT - 2023-08-24 16:32:40 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link12
+    [sys_desc] => 在线 客服 no.8167vip.org
+    [sys_value] => https://mwejues.w0dny0tdv8h.com/52fe5932dffed5699e16jkfle-keli28f5ea5f9de164218ddcd845449e8ca58821016d5da2d669429da78845cd2a77
+    [action_type] => 27
+    [photo] => undefined
+)
+ . IP: 104.28.226.107
+CRITICAL - 2023-08-24 16:48:23 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 16:49:33 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-24 16:52:58 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-24 16:53:04 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 931. IP: 116.50.143.83
+ALERT - 2023-08-24 16:57:50 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-24 16:58:05 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 931. IP: 116.50.143.83
+CRITICAL - 2023-08-24 16:58:24 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 16:59:02 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 16:59:06 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:05:04 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:05:29 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:06:59 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:07:17 --> Undefined array key "start_date"
+in APPPATH/Controllers/Promo/Promo8167.php on line 89.
+ 1 APPPATH/Controllers/Promo/Promo8167.php(89): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:11:41 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:16:24 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-24 17:17:34 --> Class "App\Controllers\Promo\Spreadsheet" not found
+in APPPATH/Controllers/Promo/Promo8167.php on line 92.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Promo\Promo8167->download_csv()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ALERT - 2023-08-24 17:51:32 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link1
+    [sys_desc] => NO 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 16
+)
+ . IP: 104.28.194.108
+ALERT - 2023-08-24 17:51:48 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link2
+    [sys_desc] => USDT 教程 no.8167vip.org/
+    [sys_value] => 
+    [action_type] => 17
+)
+ . IP: 104.28.194.108
+ALERT - 2023-08-24 17:53:00 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link3
+    [sys_desc] => 钱能 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 18
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:53:38 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link4
+    [sys_desc] => 购宝 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 19
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:53:52 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link5
+    [sys_desc] => TOPAY 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 20
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:54:07 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link6
+    [sys_desc] => CGPAY 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 21
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:54:21 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link7
+    [sys_desc] => GOPAY 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 22
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:54:39 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link8
+    [sys_desc] => OKPAY 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 23
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:54:49 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link9
+    [sys_desc] => k豆 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 24
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 17:54:59 --> SysConfig/save_data edit. user: admintest01 data: $_POST: Array
+(
+    [name] => pr2_link10
+    [sys_desc] => 988PAY 教程 no.8167vip.org
+    [sys_value] => 
+    [action_type] => 25
+)
+ . IP: 104.28.226.108
+ALERT - 2023-08-24 22:18:44 --> login success: admintest01. IP: 116.50.143.109

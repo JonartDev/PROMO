@@ -1,0 +1,9 @@
+ALERT - 2023-09-15 00:13:41 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1530 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-15 00:13:49 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 287. Userinfo update: 521. Promo insert: 528. IP: 116.50.143.110
+CRITICAL - 2023-09-15 15:10:36 --> Undefined array key "password"
+in APPPATH/Controllers/Login.php on line 54.
+ 1 APPPATH/Controllers/Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Login->index()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

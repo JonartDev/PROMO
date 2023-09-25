@@ -1,0 +1,16 @@
+ALERT - 2023-09-18 00:18:38 --> login fail. user: admintest01 pass: 密码:      testing123456. IP: 116.50.143.110
+ALERT - 2023-09-18 00:18:49 --> login fail. user: admintest01 pass: 密码:      testing123456. IP: 116.50.143.110
+ALERT - 2023-09-18 00:19:24 --> login success: admintest01. IP: 116.50.143.110
+ALERT - 2023-09-18 00:19:39 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1117 entries inserted. IP: 116.50.143.110
+ALERT - 2023-09-18 00:19:50 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 175. Userinfo update: 360. Promo insert: 295. IP: 116.50.143.110
+ALERT - 2023-09-18 13:02:27 --> login fail. user: admintest01 pass: testing123456. IP: 116.50.143.83
+ALERT - 2023-09-18 13:27:04 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-09-18 13:28:52 --> SysConfig/save_data add. user: admintest01 data: $_POST: Array
+(
+    [name] => pr1_link15
+    [sys_desc] => C币钱包 no.097vip.net
+    [sys_value] => 
+    [action_type] => add
+)
+ . IP: 116.50.143.83
+ALERT - 2023-09-18 14:36:56 --> login success: admintest01. IP: 116.50.143.109

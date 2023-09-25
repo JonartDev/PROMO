@@ -1,0 +1,12 @@
+ALERT - 2023-08-20 20:06:46 --> login success: admintest01. IP: 116.50.143.109
+ALERT - 2023-08-20 20:07:33 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 0. Userinfo update: 0. Promo insert: 0. IP: 116.50.143.109
+ALERT - 2023-08-20 20:15:27 --> login success: admintest01. IP: 116.50.143.109
+ALERT - 2023-08-20 20:28:54 --> login success: admintest01. IP: 116.50.143.83
+ALERT - 2023-08-20 20:35:52 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1000 entries inserted. IP: 116.50.143.83
+ALERT - 2023-08-20 20:35:59 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 539. Userinfo update: 0. Promo insert: 539. IP: 116.50.143.83
+ALERT - 2023-08-20 21:03:53 --> login success: admintest01. IP: 116.50.143.109
+ALERT - 2023-08-20 21:07:26 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1157 entries inserted. IP: 116.50.143.109
+ALERT - 2023-08-20 21:07:34 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 495. Userinfo update: 0. Promo insert: 495. IP: 116.50.143.109
+ALERT - 2023-08-20 21:14:24 --> promo3betlist/save_data_csv batch insert betlist3. user: admintest01 data: 1165 entries inserted. IP: 116.50.143.109
+ALERT - 2023-08-20 21:14:29 --> Promo3betlist/process_data. user: admintest01 Userinfo insert: 338. Userinfo update: 224. Promo insert: 382. IP: 116.50.143.109
+ALERT - 2023-08-20 21:35:35 --> login success: admintest01. IP: 116.50.143.109
